@@ -6,8 +6,8 @@ This bot is designed for token creators, liquidity pools and traders, providing 
 
 <b>(The bot is available on macOS and windows) </b>
 
-## Release
- - [for Windows](../../releases)
+## Pumpfun Bot GUI Release
+ - [Windows x64](../../releases)
 
 # Creation of "Pump" orders
 This feature automatically places token buy/sell orders to create visibility of activity on Pumpfun.
