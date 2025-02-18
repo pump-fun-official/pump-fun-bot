@@ -1,12 +1,13 @@
+import os
 import asyncio
 import json
 import base64
-import struct
 import base58
+import struct
 import hashlib
 import websockets
-import os
 import argparse
+
 from datetime import datetime
 
 from solana.rpc.async_api import AsyncClient
@@ -78,8 +79,8 @@ async def _trade(websocket, match_string=None, bro_address=None, marry_mode=Fals
             file.write(json.dumps(token_data, indent=2))
         print(f"Token information saved to {file_name}")
 
-        print("Waiting for 15 seconds for things to stabilize...")
-        await asyncio.sleep(15)
+        print("Waiting for 20 seconds for things to stabilize...")
+        await asyncio.sleep(20)
 
         mint = Pubkey.from_string(token_data['mint'])
         bonding_curve = Pubkey.from_string(token_data['bondingCurve'])
@@ -92,7 +93,7 @@ async def _trade(websocket, match_string=None, bro_address=None, marry_mode=Fals
 
         print(f"Bonding curve address: {bonding_curve}")
         print(f"Token price: {token_price_sol:.10f} SOL")
-        print(f"Buying {BUY_AMOUNT:.6f} SOL worth of the new token with {BUY_SLIPPAGE*100:.1f}% slippage tolerance...")
+        print(f"Buying {BUY_AMOUNT:.61f} SOL worth of the new token with {BUY_SLIPPAGE*100:.1f}% slippage tolerance...")
         buy_tx_hash = await buy_token(mint, bonding_curve, associated_bonding_curve, BUY_AMOUNT, BUY_SLIPPAGE)
         if buy_tx_hash:
             log_trade("buy", token_data, token_price_sol, str(buy_tx_hash))
