@@ -319,6 +319,16 @@ Used for blockchain data, including token balances, transaction creation, and in
 
 # 3. Start the bot
 
+## Start with GUI
+
+1. Install the latest version of the gui bot in release.
+2. Create a new profile and wallet in the "profiles" section.
+3. Choose the right trading strategy for you from the list of proposed.
+4. Click "Start Trading".
+5. Information about each action will be displayed in the "output" panel.
+
+## Start with Python
+
 1. Make sure you have Python version 3.8 or higher installed.
 
 2. Install the necessary libraries:
