@@ -1,3 +1,5 @@
+# Pumpfun Bot GUI
+
 <p align="center"><img width="720" height="463" src="assets/schalriha.webp" alt="PumpfunTrader interface" /></p>
 
 <b>PumpTrader Bot is a tool for managing trading strategies, liquidity and monitoring tokens on the Solana blockchain.</b>
