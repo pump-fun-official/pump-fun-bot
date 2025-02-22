@@ -4,7 +4,7 @@
 
 This bot is designed for token creators, liquidity pools and traders, providing a user-friendly interface for automating trading operations via Telegram.
 
-<b>(The bot is available on macOS and windows) </b>
+<b>(The bot is available on Linux and Windows) </b>
 
 ## Pumpfun Bot GUI Release
  - [Windows x64](../../releases)
