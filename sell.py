@@ -19,7 +19,6 @@ from spl.token.instructions import get_associated_token_address
 import spl.token.instructions as spl_token
 
 from construct import Struct, Int64ul, Flag
-
 from config import *
 
 # Here and later all the discriminators are precalculated. See learning-examples/discriminator.py
@@ -139,3 +138,4 @@ async def sell_token(mint: Pubkey, bonding_curve: Pubkey, associated_bonding_cur
                     await asyncio.sleep(wait_time)
                 else:
                     print("Max retries reached. Unable to complete the transaction.")
+
