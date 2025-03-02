@@ -1,6 +1,6 @@
 <p align="center"><img width="720" height="463" src="assets/schalriha.webp" alt="PumpfunTrader interface" /></p>
 
-<b>PumpTrader Bot is a tool for managing trading strategies, liquidity and monitoring tokens on the Solana blockchain.</b>
+<b>Pump Fun Trader Bot is a tool for managing trading strategies, liquidity and monitoring tokens on the Solana blockchain.</b>
 
 This bot is designed for token creators, liquidity pools and traders, providing a user-friendly interface for automating trading operations via Telegram.
 
