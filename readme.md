@@ -56,11 +56,13 @@ The bot maintains a narrow spread between buying and selling a token to increase
 
 ## Algorithm:
 
-- Analyzes the current price in the pool.
+<p align="center"><img width="720" height="463" src="assets/sol-trading2.jpg" alt="Trading Algorithm 1" /></p>
 
-- Places buy and sell orders taking into account the specified spread.
+1. Analyzes the current price in the pool.
 
-- Monitors the execution of orders and corrects them.
+2. Places buy and sell orders taking into account the specified spread.
+
+3. Monitors the execution of orders and corrects them.
 
 ## Notices:
 - The bot sends reports on liquidity maintenance.
@@ -80,10 +82,12 @@ The user enters:
 
 ## Algorithm:
 
-- Continuously monitors the price of the token on DEX.
+<p align="center"><img width="720" height="463" src="assets/sol-trading3.jpg" alt="Trading Algorithm 2" /></p>
 
-- If the price falls below the minimum level:
-Automatically places a large buy order to stabilize the price.
+1. Continuously monitors the price of the token on DEX.
+2. If the price falls below the minimum level:
+3. Automatically places a large buy order to stabilize the price.
+
 
 ## Notices:
 If the antidump feature is triggered, the bot sends a notification to Telegram.
@@ -134,6 +138,7 @@ The user enters:
 - Minimum reserve: limit for liquidity withdrawal.
 
 Algorithm:
+<p align="center"><img width="720" height="463" src="assets/sol-trading1.jpg" alt="Trading Algorithm 3" /></p>
 
 - Checks the current balance of tokens in the pool.
 
@@ -155,6 +160,8 @@ How it works?
 The user uploads a CSV file with recipient addresses and number of tokens.
 
 Algorithm:
+
+<p align="center"><img width="720" height="463" src="assets/sol-trading.jpg" alt="Trading Algorithm 4" /></p>
 
 - Checks if there are enough tokens on the wallet.
 
@@ -322,7 +329,7 @@ Used for blockchain data, including token balances, transaction creation, and in
 
 ## Start with GUI
 
-1. Install the latest version of the gui bot in release.
+1. Install the latest version of the gui bot in [Release](../../releases)
 2. Create a new profile and wallet in the "profiles" section.
 3. Choose the right trading strategy for you from the list of proposed.
 4. Click "Start Trading".
